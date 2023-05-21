@@ -11,6 +11,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Chat from "./components/Chat";
 import FeedbackForm from "./components/FeedbackForm";
+import Developers from "./components/Developers";
 
 const App = () => (
   <Box sx={{ width: "100%", maxWidth: "1488px", m: "auto" }}>
@@ -45,7 +46,11 @@ const App = () => (
         src="https://maps.google.com/maps?width=100%&amp;height=400&amp;hl=en&amp;q=139,%20CHARUSAT%20Campus,%20Highway,%20Off,%20Nadiad%20-%20Petlad%20Rd%20anand+(College)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
       ></iframe>
     </div>
-    <FeedbackForm />
+    <div style={{ marginBottom: "2rem" }}>
+      {/* Add margin-bottom to create a gap */}
+      <FeedbackForm />
+    </div>
+    <Developers />
     <Footer />
     <Chat />
   </Box>

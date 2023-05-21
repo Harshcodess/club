@@ -23,6 +23,13 @@ const Footer = () => (
       "You don't have to be great to start, but you have to start to be great."
       - Zig Ziglar
     </Typography>
+    <Typography
+      variant="body2"
+      sx={{ fontSize: { lg: "14px", xs: "12px" }, textAlign: "center" }}
+      color="text.secondary"
+    >
+      &copy; {new Date().getFullYear()} Fitness Club. All rights reserved.
+    </Typography>
   </Box>
 );
 
