@@ -3,10 +3,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./testimonial.css"; // Custom CSS for styling the carousel
-import ava01 from "../assets/images/ava-1.jpg";
-import ava02 from "../assets/images/ava-2.jpeg";
-import ava03 from "../assets/images/ava-3.jpg";
-import ava04 from "../assets/images/ava-4.jpg";
+import ava01 from "../assets/images/21.png";
+import ava02 from "../assets/images/12.jpg";
+import ava03 from "../assets/images/22.jpg";
+import ava04 from "../assets/images/32.jpg";
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Developers = () => {
@@ -30,7 +30,7 @@ const Developers = () => {
       instagram: "https://www.instagram.com/",
     },
     {
-      image: ava03,
+      image: ava04,
       name: "Rishi Kaimal",
       linkedin: "https://www.linkedin.com/in/rishikaimal",
       instagram: "https://instagram.com/rishi_kaimal?igshid=ZGUzMzM3NWJiOQ==",
